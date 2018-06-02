@@ -209,3 +209,37 @@ Merge con master de un fork
 
   </body>
 </html>
+    <H3 align=center>5 tips para usar github a diario!</h3>
+<ol>
+<li>
+<b> Lo más importante: revisa los cambios antes de agregarlos a staging </b>
+<p>Siempre has git diff antes de agregar los archivos, a veces cuando estamos desarrollando es 
+    posible que agreguemos código para probar nuestra funcionalidad, o que hayamos escrito una palabra mal por error,
+    incluso que hayamos puesto un comando de debug o deshabilitado alguna linea de código temporalmente.
+Desde que hago Git Diff antes de agregar los archivos no he tenido este tipo de problemas.</p>
+<br>
+<br>
+<img src="C:\Users\Chotini\Documents\sandbox\bedu-week2\Images/Imagen Diego 1.jpg" alt="">
+<br>
+<br>
+<b>Preferir merge sobre rebase</b>
+<p>Hay dos ramas de pensamiento cuando se trata de manejo de proyectos, 
+    los que prefieren usar rebase con master antes de enviar tus cambios, 
+    y los que prefieren usar merge solamente. Yo soy de la rama de pensamiento del merge, 
+    usando solamente merge se mantiene historia del repositorio tal cual como ocurrió, con rebase 
+    tienes un historial mas limpio pero no representa un histórico real de los cambios que se han hecho, 
+    además he tenido muchos problemas por la forma en que rebase re escribe la historia, en ocasiones cambios 
+    que se pierden por el orden en que se aplican los commits.</p>
+<br>
+<br>
+<img src="c:/users/Chotini/Documents/sandbox/bedu-week2/Images/Imagen Diego 2.png" alt="">
+<br>
+<br>
+<b>Usa el hook de pre commit</b>
+<p>Configurando el hook de pre commit para poner un linter, y revisar que no exista un statement de debug, 
+    puedes asegurarte que el código que committees cumpla las normas de estilo de código de tu equipo y/o de tu lenguaje.</p>
+
+</li>
+</ol>
+</body>
+</html>
