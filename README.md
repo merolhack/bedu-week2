@@ -1,9 +1,10 @@
 # bedu-week2
 Examples of how to use GIT
 
-## Libraries used:
+## Libraries/Technologies used:
  * CSS 3: Bootstrap 3
  * HTML 5
+ * Markdown
 
 ## Development team:
  * [HiraderX](https://github.com/HiraderX)
